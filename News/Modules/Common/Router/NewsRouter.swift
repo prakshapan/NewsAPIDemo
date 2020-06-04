@@ -21,7 +21,7 @@ enum NewsRouter: Router {
 
     // Config Methods Type
     var method: String {
-        return "GET"
+        NetworkMethod.GET.rawValue
     }
 
     // Config Headers

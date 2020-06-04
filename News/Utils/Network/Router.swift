@@ -15,8 +15,12 @@ protocol Router {
 
 /** Set the Default Value **/
 extension Router {
-    var method: String { return "GET" }
+    var method: String { return NetworkMethod.GET.rawValue }
     var headers: [String: String] { return [:] }
     var parameters: [String: Any] { return [:] }
     var uploadParameters: Data? { return nil }
+}
+
+enum NetworkMethod: String {
+    case GET, POST, PUT, PATCH, DELETE
 }

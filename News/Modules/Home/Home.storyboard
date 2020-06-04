@@ -82,7 +82,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="FQc-g3-zoc"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <state key="normal" title="Click for more details"/>
+                                                <state key="normal" title="Click here for more details."/>
                                                 <connections>
                                                     <action selector="detailAction:" destination="HF2-Gr-26f" eventType="touchUpInside" id="1wS-2R-SA1"/>
                                                 </connections>

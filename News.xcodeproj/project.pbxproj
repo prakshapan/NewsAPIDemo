@@ -184,9 +184,9 @@
 			children = (
 				09ABB0B62487E5BD00DF56F4 /* Common */,
 				09ABB0952487CB9C00DF56F4 /* Home */,
-				09ABB0992487CC2200DF56F4 /* All */,
 				09ABB0982487CC1C00DF56F4 /* Top */,
 				09D162132488AFE3009B291D /* Detail */,
+				09ABB0992487CC2200DF56F4 /* All */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
